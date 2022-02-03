@@ -1,0 +1,38 @@
+.card {
+  margin: auto;
+  width: 50%;
+  /* height: 50%; */
+}
+
+.quote-text {
+  font-weight: 600;
+  margin: 1em;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.quote-text::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10d";
+  display: block;
+  text-align: left;
+}
+.quote-text::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f10e";
+  display: block;
+  text-align: right;
+}
+
+.quote-author {
+  text-align: right;
+  margin: 1em 1.5em 1em 1em;
+}
+
+.quote-author::before {
+  content: "---";
+  margin-right: 1em;
+}

@@ -1,0 +1,15 @@
+@import url();
+.card-footer {
+  border: none !important;
+}
+.myFooter {
+  display: flex;
+  /* width: 100%; */
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 1em; */
+}
+
+.fa-twitter-square {
+  color: #212529;
+}
